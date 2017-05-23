@@ -1,0 +1,184 @@
+/*-------------------------------------------
+THE APPAREL VINTAGE COMPANY CSS STYLE FILE
+--------------------------------------------*/
+
+/*-------------------------------------------
+            WEBSITE COLOUR SCHEME
+--------------------------------------------*/
+
+/*First colour: rgba(54,91,70,1);
+Second colour: rgba(54,91,70,0.9);
+Third colour: rgba(159,12,16,1);
+Fourth colour: #444;
+  font-family: 'Roboto', sans-serif; */
+
+/*-------------------------------------------
+              THE GOBAL STYLES
+--------------------------------------------*/
+body {
+    font-family: 'Ek Mukta', sans-serif;
+    font-size: 0.9em;
+    color:#444;
+    overflow-x: hidden;
+   
+
+}
+
+
+.main {
+    width: 100%;
+    margin: 0auto;
+}
+
+.container{
+    
+    width: 80%;
+    background-color: red;
+    margin: auto;
+}
+
+/*img {
+    width: 100%;
+
+}*/
+
+/*-------------------------------------------
+              THE HOME STYLES
+--------------------------------------------*/
+
+.bgImage {
+    background-image: url("../HTML5/CaseStudy/images/vintageHome.jpg");
+    background-size: 100%;
+    /*If you change the background-size to 100% value it will be responsive to the screen size.*/
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-attachment: fixed;
+      
+}
+
+.logo{
+    position: absolute;
+    Top: 10vh;
+    Left: 23vw;
+}
+
+.actionB {
+    position: absolute;
+    Top: 68vh;
+    Left: 23vw;
+}
+
+.buttonD {
+    position: absolute;
+    Top: 90vh;
+    Left: 46vw;
+    
+}
+
+.pointer {
+     padding: 15px 20px;
+    line-height: 20px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+   /* -o-border-radius: 5px 5px 5px 5px;
+    -ms-border-radius: 5px 5px 5px 5px;*/
+    cursor: pointer;
+    outline: none;
+    border: 2px solid rgba(54,91,70,1);
+    background-color: #444;
+}
+
+.arrivals {
+    padding: 15px 20px;
+    line-height: 20px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+   /* -o-border-radius: 5px 5px 5px 5px;
+    -ms-border-radius: 5px 5px 5px 5px;*/
+    cursor: pointer;
+    outline: none;
+    border: 2px solid rgba(54,91,70,1);
+    background-color: #444;
+}
+
+.arrivals:hover {
+    background-color: #442;
+}
+
+.navC {
+    width: 100%;
+    height: auto;
+    background-color: rgba(54,91,70,0.9);
+    position: fixed;
+    padding: 10px 0px;
+}
+
+nav {
+    float: right;
+}
+
+nav li {
+    display:inline;
+    padding: 0 10px 0 0;
+}
+
+nav a {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    color: rgba(255,255,255,0.7);
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    color: rgba(255,255,255,1);
+}
+
+.hand {
+    position: absolute;
+    top: 69vh;
+    left: 34vw;
+    color: rgba(54,91,70,1);
+    
+}
+
+
+.FeaturedProducts  {
+ 
+    margin: 10px auto;
+    column-count: 3;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.FeaturedProducts p {
+     width: 400px;
+    text-align: center;
+}
+
+
+.Pictures {
+    text-align: center;
+    float:left;
+    position: relative;
+    width: 30%;
+}
+    
+.Pictures2 {
+    text-align: center;
+    float:left;
+    position: relative;
+    width: 33%;
+}
+
